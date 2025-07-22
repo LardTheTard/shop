@@ -42,8 +42,12 @@ h1 {
 }
 
 #selectednavlinks {
-    padding: 10px; 
-    background-color: aliceblue;
+    padding: 4px; 
+    color: black;
+    background-color: rgb(240, 248, 255);
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration-line: none;
 }
 
 #cart {

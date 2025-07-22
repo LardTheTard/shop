@@ -25,7 +25,7 @@ h1 {
 }
 
 #header2 {
-    background-color: #e4b26b; 
+    background-color: #090604; 
     color: white;
     padding: 15px;
     display: flex;
@@ -43,6 +43,8 @@ h1 {
 
 #cart {
     font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
     cursor: pointer;
 }
 

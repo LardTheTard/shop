@@ -25,12 +25,19 @@ h1 {
 }
 
 #header2 {
-    background-color: #e4b26b; /* golden-brown */
+    background-color: #e4b26b; 
     color: white;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#navlinks {
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    cursor: pointer;
 }
 
 #cart {

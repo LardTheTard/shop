@@ -10,7 +10,12 @@ body {
     color: #333;
 }
 
-header {
+h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+#header1 {
     background-color: #b5651d; /* golden-brown */
     color: white;
     padding: 20px;
@@ -19,9 +24,13 @@ header {
     align-items: center;
 }
 
-h1 {
-    margin: 0;
-    font-weight: 700;
+#header2 {
+    background-color: #e4b26b; /* golden-brown */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #cart {

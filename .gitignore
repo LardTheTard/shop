@@ -70,3 +70,5 @@ node_modules/
 
 # For macs
 .DS_Store
+
+backend/serviceAccountKey.json

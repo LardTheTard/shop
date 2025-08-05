@@ -10,8 +10,22 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #b5651d; /* golden-brown */
+h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+h2 {
+    background-image: linear-gradient(
+    180deg,
+    rgba(143, 0, 255, 1),
+    rgba(48, 11, 96, 0.9),
+    rgba(255, 0, 122, 0.8),
+    );
+}
+
+#header1 {
+    background-image: linear-gradient(to bottom, #ff9232c3 0%, #b5641d);
     color: white;
     padding: 20px;
     display: flex;
@@ -19,13 +33,36 @@ header {
     align-items: center;
 }
 
-h1 {
-    margin: 0;
-    font-weight: 700;
+#header2 {
+    background-color: #090604; 
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navlinks {
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+#selectednavlinks {
+    padding: 4px; 
+    color: black;
+    background-color: rgb(240, 248, 255);
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration-line: none;
 }
 
 #cart {
     font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
     cursor: pointer;
 }
 
@@ -34,6 +71,39 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     padding: 20px;
+}
+
+#popup {
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 2%;
+    padding: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri; font-weight: 100;
+    font-size: 15px;
+    box-shadow: 0px 0px 50px rgba(143, 0, 255, 1);
+    text-align: center;
+    outline-style: solid;
+    outline-color: rgba(143, 0, 255, 1);
+    outline-width: 5px;;
+}
+
+#login-form input {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri; font-weight: 100;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+#login-form button {
+    background-color: rgba(143, 0, 255, 1);
+    color: white;
+    border: none;
+    padding: 16px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
 }
 
 .product-card {

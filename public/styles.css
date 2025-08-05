@@ -25,7 +25,7 @@ h2 {
 }
 
 #header1 {
-    background-image: linear-gradient(to bottom, #feb270 0%, #b5641d);
+    background-image: linear-gradient(to bottom, #ff9232c3 0%, #b5641d);
     color: white;
     padding: 20px;
     display: flex;
@@ -77,7 +77,7 @@ h2 {
     background-color: #ffffff;
     border-radius: 20px;
     margin: 2%;
-    padding: 8px;
+    padding: 8px 0px 16px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri; font-weight: 100;
     font-size: 15px;
     box-shadow: 0px 0px 50px rgba(143, 0, 255, 1);

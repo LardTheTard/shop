@@ -47,7 +47,3 @@ app.listen(3000, () => {
 app.get('/', (req, res) => {
   res.send('Backend is working!');
 });
-
-app.listen(port, () => {
-  console.log(`Server is listening at http://localhost:${port}`);
-});

@@ -1,5 +1,5 @@
 // Sample products data
-const products = [
+let products = [
   {
     id: 1,
     name: "Gold Necklace",
